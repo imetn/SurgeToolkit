@@ -2,13 +2,18 @@
 #!desc=临时让 Claude iOS 账号接口返回 session_expired，用于清理本机残留登录态。回到登录页后请立即关闭本模块。
 #!author=ennann
 
+[Script]
+# 命中后会发通知；如果没有通知，说明 Claude 流量没有进入当前 Surge/MITM。
+Claude_iOS_Reset_Account = type=http-request,pattern=^https:\/\/claude\.ai\/api\/account(?:[\/\?#]|$),script-path=https://raw.githubusercontent.com/ennann/SurgeToolkit/main/Scripts/claude-ios-reset.js,timeout=5
+Claude_iOS_Reset_API = type=http-request,pattern=^https:\/\/a-api\.anthropic\.com\/,script-path=https://raw.githubusercontent.com/ennann/SurgeToolkit/main/Scripts/claude-ios-reset.js,timeout=5
+
 [Map Local]
-# Claude Web / iOS 账号接口
-^https:\/\/claude\.ai\/api\/account(?:\?|$) data-type=text data="{\"type\":\"error\",\"error\":{\"type\":\"session_expired\",\"message\":\"Session expired\"}}" status-code=401 header="Content-Type:application/json|Cache-Control:no-store|Set-Cookie:sessionKey=; Path=/; Domain=.claude.ai; Expires=Thu, 01 Jan 1970 00:00:00 GMT; Secure; HttpOnly; SameSite=Lax|Set-Cookie:routingHint=; Path=/; Domain=.claude.ai; Expires=Thu, 01 Jan 1970 00:00:00 GMT; Secure; HttpOnly; SameSite=Lax"
+# Claude Web / iOS 账号接口兜底
+^https:\/\/claude\.ai\/api\/account(?:[\/\?#]|$) data-type=text data="{\"type\":\"error\",\"error\":{\"type\":\"session_expired\",\"message\":\"Session expired\"}}" status-code=401 header="Content-Type:application/json|Cache-Control:no-store|Set-Cookie:sessionKey=; Path=/; Domain=.claude.ai; Expires=Thu, 01 Jan 1970 00:00:00 GMT; Secure; HttpOnly; SameSite=Lax|Set-Cookie:routingHint=; Path=/; Domain=.claude.ai; Expires=Thu, 01 Jan 1970 00:00:00 GMT; Secure; HttpOnly; SameSite=Lax"
 
 # Claude iOS API 兜底。仅在重置期间开启本模块。
 ^https:\/\/a-api\.anthropic\.com\/.* data-type=text data="{\"type\":\"error\",\"error\":{\"type\":\"session_expired\",\"message\":\"Session expired\"}}" status-code=401 header="Content-Type:application/json|Cache-Control:no-store|Set-Cookie:sessionKey=; Path=/; Domain=.claude.ai; Expires=Thu, 01 Jan 1970 00:00:00 GMT; Secure; HttpOnly; SameSite=Lax|Set-Cookie:routingHint=; Path=/; Domain=.claude.ai; Expires=Thu, 01 Jan 1970 00:00:00 GMT; Secure; HttpOnly; SameSite=Lax"
 
 [MITM]
-hostname = %APPEND% claude.ai, a-api.anthropic.com
+hostname = %APPEND% claude.ai, *.claude.ai, anthropic.com, *.anthropic.com
 h2 = true
