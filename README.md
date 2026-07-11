@@ -10,6 +10,23 @@
 ## 概述
 本仓库（`SurgeToolkit`）主要集成了各种与 Surge 软件相关的 Modules、Scripts 等工具。
 
+## 三平台模板
+
+| 平台 | 模板 |
+| --- | --- |
+| iOS | [Surge.iOS.example.conf](Templates/Surge.iOS.example.conf) |
+| macOS | [Surge.macOS.example.conf](Templates/Surge.macOS.example.conf) |
+| tvOS | [Surge.tvOS.example.conf](Templates/Surge.tvOS.example.conf) |
+
+模板统一提供 Self/Public、地区和用途三层策略，其中 Speedtest 与 Download 支持优先直连。使用前请阅读 [模板说明](Templates/README.md)。
+
+## 自有规则
+
+| 规则 | 用途 |
+| --- | --- |
+| [Bybit](Rules/Bybit.list) | Bybit 网页、App、REST API、WebSocket 与区域站点 |
+| [Speedtest Overlay](Rules/Speedtest.list) | 补充 tvOS 上发现的测速服务器域名 |
+
 ## 模块
 
 | 模块名称       | 模块地址                                                                                     | 模块功能              | 原作者                                       |

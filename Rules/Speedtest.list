@@ -1,0 +1,14 @@
+# NAME: Speedtest Overlay
+# AUTHOR: ennann/SurgeToolkit
+# UPDATED: 2026-07-12
+# DESCRIPTION: Small overlay for Speedtest servers observed on tvOS
+
+DOMAIN-SUFFIX,speedtest.idv.tw
+DOMAIN,ty1.chtm.hinet.net
+DOMAIN-SUFFIX,homeplus.net.tw
+DOMAIN-SUFFIX,speedtest.jsinfo.net
+DOMAIN-SUFFIX,online.sh.cn
+DOMAIN-SUFFIX,shunicomtest.com
+DOMAIN-SUFFIX,dukekunshan.edu.cn
+DOMAIN-SUFFIX,zjtelecom.com.cn
+DOMAIN-SUFFIX,jsqiuying.com

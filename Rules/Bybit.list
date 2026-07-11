@@ -1,0 +1,32 @@
+# NAME: Bybit
+# AUTHOR: ennann/SurgeToolkit
+# UPDATED: 2026-07-12
+# SOURCE: Bybit web, app, REST API and WebSocket endpoints
+
+DOMAIN-SUFFIX,bybit.com
+DOMAIN-SUFFIX,bybitglobal.com
+DOMAIN-SUFFIX,bybit-global.com
+DOMAIN-SUFFIX,bybit.com.hk
+DOMAIN-SUFFIX,bytick.com
+DOMAIN-SUFFIX,byapis.com
+DOMAIN-SUFFIX,bycsi.com
+DOMAIN-SUFFIX,bycbe.com
+DOMAIN-SUFFIX,bymj.io
+DOMAIN-SUFFIX,bybit.biz
+DOMAIN-SUFFIX,byapps.net
+DOMAIN-SUFFIX,byabcde.com
+DOMAIN-SUFFIX,bybdc6.com
+DOMAIN-SUFFIX,byd3c3.com
+DOMAIN-SUFFIX,bybit.cloud
+DOMAIN-SUFFIX,bybit-aws.com
+DOMAIN-SUFFIX,bybit.ada.support
+DOMAIN-SUFFIX,byhkbit.com
+DOMAIN-SUFFIX,bybit.nl
+DOMAIN-SUFFIX,bybit.tr
+DOMAIN-SUFFIX,bybit-tr.com
+DOMAIN-SUFFIX,bybit.kz
+DOMAIN-SUFFIX,bybitgeorgia.ge
+DOMAIN-SUFFIX,bybit.ae
+DOMAIN-SUFFIX,bybit.eu
+DOMAIN-SUFFIX,bybit.id
+DOMAIN-SUFFIX,moneypartners.co.jp
