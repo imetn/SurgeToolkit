@@ -1,11 +1,11 @@
 # SurgeToolkit
 
 <h4 align="center">
-  <img src="https://raw.githubusercontent.com/risethan/SurgeToolkit/main/config/surge.jpeg" alt="Clash" width="300">
+  <img src="https://raw.githubusercontent.com/ennann/SurgeToolkit/main/config/surge.jpeg" alt="Surge" width="300">
   <br><span style="color:gray">Surge for macOS & iOS</span><br>
 </h4>
 
-> 简体中文 | [English](https://github.com/risethan/SurgeToolkit/blob/main/config/README_en.md)
+> 简体中文 | [English](https://github.com/ennann/SurgeToolkit/blob/main/config/README_en.md)
 
 ## 概述
 本仓库（`SurgeToolkit`）主要集成了各种与 Surge 软件相关的 Modules、Scripts 等工具。
@@ -36,4 +36,8 @@
 2. **作者信息**：项目中会明确注明原作者的信息。如果您喜欢某个功能，请务必去给原作者点个 Star。
 3. **版权声明**：所有脚本的版权归原作者所有。
 4. **使用风险**：使用这些脚本和模块的风险由使用者自行承担。
-5. **更新频率**：本项目不保证定期更新。
+5. **维护方式**：按实际使用情况持续验证和更新，不承诺固定发布周期。
+
+## 安全边界
+
+本仓库只存放可公开共享的规则、模块、脚本和示例。订阅地址、节点凭据、证书、私钥、Gist 地址或内容不得提交。详细要求见 [CONTRIBUTING.md](CONTRIBUTING.md)。

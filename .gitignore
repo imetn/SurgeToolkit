@@ -1,3 +1,29 @@
 
 .vscode/
 .DS_Store
+
+# Local credentials and private Surge profiles
+.env
+.env.*
+!.env.example
+.private/
+private/
+secrets/
+credentials/
+
+*.conf
+!*.example.conf
+*.sgconfig
+*.mobileconfig
+*.pem
+*.key
+*.p8
+*.p12
+*.pfx
+*.cer
+*.crt
+*.der
+*.csr
+*.jks
+*.keystore
+*.ovpn
