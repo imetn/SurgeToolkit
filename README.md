@@ -24,8 +24,8 @@
 
 | 规则 | 用途 |
 | --- | --- |
-| [Bybit](Rules/Bybit.list) | Bybit 网页、App、REST API、WebSocket 与区域站点 |
-| [Speedtest Overlay](Rules/Speedtest.list) | 补充 tvOS 上发现的测速服务器域名 |
+| [Bybit](Rules/bybit.list) | Bybit 网页、App、REST API、WebSocket 与区域站点 |
+| [Speedtest Overlay](Rules/speedtest.list) | 补充 tvOS 上发现的测速服务器域名 |
 
 ## 模块
 
