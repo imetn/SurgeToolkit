@@ -25,6 +25,7 @@
 | 规则 | 用途 |
 | --- | --- |
 | [Bybit](Rules/bybit.list) | Bybit 网页、App、REST API、WebSocket 与区域站点 |
+| [Hubeiqiao Direct](Rules/hubeiqiao.list) | Hubeiqiao 用户配置的专用直连域名 |
 | [Speedtest Overlay](Rules/speedtest.list) | 补充 tvOS 上发现的测速服务器域名 |
 
 ## 模块

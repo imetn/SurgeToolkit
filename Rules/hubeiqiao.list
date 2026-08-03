@@ -1,0 +1,14 @@
+# NAME: Hubeiqiao Direct
+# AUTHOR: imetn/SurgeToolkit
+# UPDATED: 2026-08-03
+# DESCRIPTION: Direct routing rules for the Hubeiqiao user profile
+
+DOMAIN-SUFFIX,joespeaking.com
+DOMAIN-SUFFIX,supabase.co
+DOMAIN-SUFFIX,backblazeb2.com
+DOMAIN-SUFFIX,posthog.com
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,hubeiqiao.workers.dev
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,api.assemblyai.com
