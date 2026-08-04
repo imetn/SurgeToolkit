@@ -1,0 +1,7 @@
+# NAME: Movies
+# AUTHOR: imetn/SurgeToolkit
+# UPDATED: 2026-08-04
+# DESCRIPTION: Movie and TV resource websites routed through proxy
+
+# BT之家1LOU站：电影、剧集与网盘资源社区
+DOMAIN-SUFFIX,1lou.me
