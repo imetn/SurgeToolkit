@@ -1,7 +1,41 @@
 # NAME: Movies
 # AUTHOR: imetn/SurgeToolkit
 # UPDATED: 2026-08-04
-# DESCRIPTION: Movie and TV resource websites routed through proxy
+# DESCRIPTION: Movie, TV, torrent, cloud-drive and subtitle resource websites
 
+# ============ BT 与种子索引 ============
 # BT之家1LOU站：电影、剧集与网盘资源社区
 DOMAIN-SUFFIX,1lou.me
+# RARBG：电影与剧集种子索引
+DOMAIN-SUFFIX,rargb.to
+# The Pirate Bay：综合种子索引
+DOMAIN-SUFFIX,thepiratebay.org
+# EZTV：剧集种子索引
+DOMAIN-SUFFIX,eztvx.to
+# YTS：电影种子索引
+DOMAIN-SUFFIX,yts.gg
+
+# ============ 云盘资源 ============
+# YaPan：网盘资源索引
+DOMAIN-SUFFIX,pan.ccof.cc
+# 阿里云盘吧：阿里云盘资源分享
+DOMAIN-SUFFIX,aliyunpanba.com
+
+# ============ 字幕资源 ============
+# Addic7ed：电影与剧集英文字幕
+DOMAIN-SUFFIX,addic7ed.com
+# SubHD：中文字幕及其备用域名
+DOMAIN-SUFFIX,subhd.tv
+DOMAIN-SUFFIX,subhd.me
+DOMAIN-SUFFIX,subhd.one
+# 字幕库 Zimuku
+DOMAIN-SUFFIX,zmk.pw
+# 射手网(伪)
+DOMAIN-SUFFIX,assrt.net
+# Subscene：历史字幕站域名
+DOMAIN-SUFFIX,subscene.com
+# OpenSubtitles：多语言字幕
+DOMAIN-SUFFIX,opensubtitles.org
+DOMAIN-SUFFIX,opensubtitles.com
+# SubDL：电影与剧集多语言字幕
+DOMAIN-SUFFIX,subdl.com
