@@ -1,7 +1,7 @@
 # ========================================
 # NAME: AI-Rules-Merged
 # AUTHOR: merged from Sukka / Custom / blackmatrix7 + ip.net.coffee Claude Code 分流规则大全
-# UPDATED: 2026-04-14
+# UPDATED: 2026-08-07
 # DESCRIPTION: Merged AI-related domain routing rules
 # FORMAT: Surge / Quantumult X style domain rules
 # ========================================
@@ -30,9 +30,16 @@ DOMAIN,challenges.cloudflare.com
 
 # OpenAI exact hosts
 DOMAIN,auth0.openai.com
+DOMAIN,ct.sendgrid.net
+DOMAIN,humb.apple.com
+DOMAIN,openai-api.arkoselabs.com
 DOMAIN,pay.openai.com
 DOMAIN,platform.openai.com
 DOMAIN,openaiapi-site.azureedge.net
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,production-openaicom-storage.azureedge.net
+DOMAIN,workos.imgix.net
 
 # Anthropic / Claude exact hosts
 DOMAIN,api.anthropic.com
@@ -42,9 +49,12 @@ DOMAIN,console.anthropic.com
 DOMAIN,workbench.anthropic.com
 DOMAIN,anthropic.auth0.com
 DOMAIN,statsig.anthropic.com
+DOMAIN,mcp-proxy.anthropic.com
 DOMAIN,anthropic-com.ghost.io
 DOMAIN,anthropic.com.cdn.cloudflare.net
 DOMAIN,servd-anthropic-website.b-cdn.net
+DOMAIN,pivot.claude.ai
+DOMAIN,bridge.claudeusercontent.com
 DOMAIN,platform.claude.com
 DOMAIN,code.claude.com
 DOMAIN,downloads.claude.ai
@@ -65,9 +75,21 @@ DOMAIN,cdn.usefathom.com
 # OpenAI / ChatGPT
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,client-api.arkoselabs.com
+DOMAIN-SUFFIX,featureassets.org
+DOMAIN-SUFFIX,host.livekit.cloud
 DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaistatsig.com
 DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,openaimerge.com
+DOMAIN-SUFFIX,openaicom.imgix.net
+DOMAIN-SUFFIX,prodregistryv2.org
 DOMAIN-SUFFIX,sora.com
+DOMAIN-SUFFIX,statsig.com
+DOMAIN-SUFFIX,turn.livekit.cloud
+DOMAIN-SUFFIX,workos.com
+DOMAIN-SUFFIX,workoscdn.com
 
 # Anthropic / Claude
 DOMAIN-SUFFIX,anthropic.com
