@@ -1,7 +1,7 @@
-# NAME: Crypto Exchanges (Legacy Bybit URL)
+# NAME: Crypto Exchanges
 # AUTHOR: ennann/SurgeToolkit
 # UPDATED: 2026-08-26
-# SOURCE: Compatibility copy of crypto.list
+# SOURCE: Bybit and MEXC web, app, REST API and WebSocket endpoints
 
 # Bybit
 DOMAIN-SUFFIX,bybit.com

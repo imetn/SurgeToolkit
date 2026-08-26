@@ -24,7 +24,8 @@
 
 | 规则 | 用途 |
 | --- | --- |
-| [Bybit](Rules/bybit.list) | Bybit 网页、App、REST API、WebSocket 与区域站点 |
+| [Crypto Exchanges](Rules/crypto.list) | Bybit、MEXC 网页、App、REST API、WebSocket 与区域站点 |
+| [Bybit Legacy URL](Rules/bybit.list) | 兼容旧配置，规则内容与 Crypto Exchanges 一致 |
 | [Hubeiqiao Direct](Rules/hubeiqiao.list) | Hubeiqiao 用户配置的专用直连域名 |
 | [Movies](Rules/movies.list) | 电影、剧集与网盘资源网站 |
 | [Speedtest Overlay](Rules/speedtest.list) | 补充 tvOS 上发现的测速服务器域名 |
