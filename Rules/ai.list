@@ -1,7 +1,7 @@
 # ========================================
 # NAME: AI-Rules-Merged
 # AUTHOR: merged from Sukka / Custom / blackmatrix7 + ip.net.coffee Claude Code 分流规则大全
-# UPDATED: 2026-08-07
+# UPDATED: 2026-08-29
 # DESCRIPTION: Merged AI-related domain routing rules
 # FORMAT: Surge / Quantumult X style domain rules
 # ========================================
@@ -77,6 +77,7 @@ DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,chatgpt.livekit.cloud
 DOMAIN-SUFFIX,client-api.arkoselabs.com
+DOMAIN-SUFFIX,ct.sendgrid.net
 DOMAIN-SUFFIX,featureassets.org
 DOMAIN-SUFFIX,host.livekit.cloud
 DOMAIN-SUFFIX,oaistatic.com
