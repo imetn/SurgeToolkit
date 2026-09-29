@@ -1,6 +1,5 @@
-# Claude endpoints and shared web/telemetry dependencies.
+# Claude-specific endpoints. Shared telemetry domains belong to the general AI rules.
 # Base domains: https://github.com/blackmatrix7/ios_rule_script
-# Shared domains may also carry other applications.
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
@@ -11,16 +10,8 @@ DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN,anthropic-com.ghost.io
 DOMAIN,anthropic.com.cdn.cloudflare.net
 DOMAIN,servd-anthropic-website.b-cdn.net
-DOMAIN-SUFFIX,sentry.io
-DOMAIN-KEYWORD,sentry
-DOMAIN-SUFFIX,statsigapi.net
 DOMAIN,browser-intake-us5-datadoghq.com
 DOMAIN,http-intake.logs.us5.datadoghq.com
-DOMAIN-KEYWORD,datadog
-DOMAIN-KEYWORD,sift
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomcdn.com
-DOMAIN,cdn.usefathom.com
 DOMAIN-KEYWORD,anthropic
 DOMAIN-KEYWORD,claude
 IP-CIDR,160.79.104.0/23,no-resolve
