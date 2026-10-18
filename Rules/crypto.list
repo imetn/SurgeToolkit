@@ -1,6 +1,6 @@
 # NAME: Crypto Exchanges
 # AUTHOR: ennann/SurgeToolkit
-# UPDATED: 2026-08-26
+# UPDATED: 2026-10-18
 # SOURCE: Bybit and MEXC web, app, REST API and WebSocket endpoints
 
 # Bybit
@@ -39,4 +39,6 @@ DOMAIN-SUFFIX,bybick.com
 DOMAIN-SUFFIX,mexc.com
 DOMAIN-SUFFIX,mexc.co
 DOMAIN-SUFFIX,mexc.in
+# Additional MEXC domain, supplied by Ethan
+DOMAIN-SUFFIX,flytogarden.com
 DOMAIN,static.geevisit.com
