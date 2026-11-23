@@ -20,6 +20,8 @@ jobs:
         uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
       - name: Check repository content
         run: .github/scripts/check-sensitive.sh
+      - name: Check T3 AI domain coverage
+        run: python3 .github/scripts/test-t3-rules.py
 
   gitleaks:
     name: Gitleaks

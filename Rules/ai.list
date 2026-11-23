@@ -98,6 +98,11 @@ DOMAIN-SUFFIX,openart.ai
 DOMAIN-SUFFIX,clipdrop.co
 
 # Aggregators / multi-model platforms
+## T3 Code: https://github.com/pingdotgg/t3code
+# Includes hosted app, Clerk auth, relay, release channels and ingest subdomains.
+DOMAIN-SUFFIX,t3.codes
+# T3 Chat account linking / paid Connect capacity; infra/relay/README.md.
+DOMAIN-SUFFIX,t3.chat
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,groq.com
