@@ -101,6 +101,8 @@ DOMAIN-SUFFIX,clipdrop.co
 ## T3 Code: https://github.com/pingdotgg/t3code
 # Includes hosted app, Clerk auth, relay, release channels and ingest subdomains.
 DOMAIN-SUFFIX,t3.codes
+# Managed T3 Connect environment endpoints.
+DOMAIN-SUFFIX,t3coderelay.com
 # T3 Chat account linking / paid Connect capacity; infra/relay/README.md.
 DOMAIN-SUFFIX,t3.chat
 DOMAIN-SUFFIX,perplexity.ai
